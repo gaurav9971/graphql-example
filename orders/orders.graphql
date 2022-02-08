@@ -1,4 +1,4 @@
- type Query{
+type Query{
       orders: [Order]
   }
 
@@ -8,7 +8,7 @@ type Order{
       items: [OrderItem]
   }
 
-  type OrderItem{
+type OrderItem{
       product: Product!
       quantity: Int!
   };
